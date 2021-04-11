@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="ro.pub.cs.systems.eim.lab03.phonedialer.MainActivity">
+    tools:context="ro.pub.cs.systems.eim.lab03.phonedialer.PhoneDialer">
 
     <EditText
         android:id="@+id/edit_text_image_button"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:columnCount="5"
-        android:rowCount="3">
+        android:rowCount="4">
 
         <ImageButton
             android:id="@+id/backspace_image_button"
@@ -37,6 +37,20 @@
             android:layout_marginBottom="@dimen/margins_image_buttons"
             android:background="@color/white"
             android:src="@drawable/backspace" />
+
+        <ImageButton
+            android:id="@+id/contact_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginTop="@dimen/margins_image_buttons"
+            android:layout_marginRight="@dimen/margins"
+            android:layout_marginBottom="@dimen/margins_image_buttons"
+            android:background="@color/grey"
+            android:src="@drawable/contacts" />
 
         <ImageButton
             android:id="@+id/call_image_button"

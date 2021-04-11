@@ -18,4 +18,5 @@ public class Constants {
             R.id.star_button,
             R.id.pound_button
     };
+    public static final int CONTACTS_MANAGER_REQUEST_CODE = 2017;
 }
